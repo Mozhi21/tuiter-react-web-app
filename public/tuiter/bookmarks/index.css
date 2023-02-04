@@ -1,0 +1,68 @@
+html{
+    font-size: 15px;
+}
+a { text-decoration: none;
+    text-decoration: none;
+    color: gray}
+
+.float-right-main{
+    float: right;
+    max-width: 90%;
+}
+.float-left-main{
+    float: left;
+    width: 80%;
+}
+.border-picture{
+    border: 1px solid rgb(47, 51, 54);
+    border-radius: 20px;
+}
+.border-picture-word{
+    border: 1px solid gray;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.padding-picture-text{
+    padding: 12px;
+}
+.padding-left-pri{
+    padding-left: 12px;
+}
+.font-size-picture-title{
+    font-size: 15px;
+}
+
+.font-size-picture-content{
+    font-size: 12px;
+}
+.float-left-1-4{
+    float: left;
+    width: 25%;
+}
+
+.text-color-liked{
+    color: #FF7979;
+}
+.circular-img{
+    border-radius: 50%;
+}
+
+.margin-left-avart{
+    margin-left: 16px;
+}
+.margin-top-avart{
+    margin-top: 12px;
+}
+.margin-right-avart{
+    margin-right: 12px;
+}
+
+.max-length-content{
+    max-width: 506px;
+}
+.text-size-title{
+    font-size: 20px;
+}
+.text-size-handle{
+    font-size: 13px;
+}

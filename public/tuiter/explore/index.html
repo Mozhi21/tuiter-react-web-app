@@ -2,126 +2,199 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>explore-index</title>
+    <link href="../../vendors/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link href="index.css" rel="stylesheet">
-
 </head>
 <body>
-
-@
-    <div class="float-done padding ">
-        <div class="float-left no-line-change " >
-            <img class ="bg_color-pri   rounded-corners-left padding-left margin-top-main padding-thin"
-                 src="../res/icon/search_icon.svg"
-            height="15.5px">
-        </div>
-        <div class="float-left  no-flow-main" >
-            <input class="bg_color-pri margin-top-main rounded-corners-right no-border padding"
-                   type="search"
-                   size="50%"
-                   placeholder="Search Twitter"  >
-        </div>
-        <div class="float-right">
-            <a href="explore-settings.html">
-                <img class = "filter-blue  margin-left-main padding padding-right"
-                 src="../res/icon/gear_icon2.svg"
-                 height="28px"
-                 width=auto/>
-            </a>
-        </div>
-    </div>
-
-    <div class="float-done font-cat no-line-change ">
-        <div class="float-2-6  margin-left-main "><a href="for-you.html" class="highlight-color ">
-            <div class="padding_big border_bottom"><b>For you</b></div></a> </div>
-        <div class="float-2-6 margin-left-main padding_big"><a href="trending.html" class="text-color-pri ">Trending</a> </div>
-        <div class="float-2-6 margin-left-main padding_big"><a href="covid.html" class="text-color-pri">Covid-19</a> </div>
-        <div class="float-2-6 margin-left-main padding_big"><a href="news.html" class="text-color-pri">News</a> </div>
-        <div class="float-2-6 margin-left-main padding_big"><a href="sports.html" class="text-color-pri">Sports</a> </div>
-        <div class="float-2-6 margin-left-main padding_big"><a href="entertainment.html" class="text-color-pri">Entertainment</a> </div><br>
-    </div>
-    <div class="line-1 "></div>
-
-    <div  class="no-border bg-color-gary font-blank" width="fill">
-        <br>
-        <div class="line-1 "></div>
-    </div>
-
-    <div class="text-color-pri margin-top-main margin-left-main">
-        <div class="float-done no-line-change ">
-            <div class="font-topic padding float-left">Trending in Science </div>
-            <img class="float-right margin_right_main" src="../res/icon/3-dots.svg" height="24">
-            <br>
-        </div>
-        <div class="text-color-highlight font-topic padding"  >Starship</div>
-        <div class="font-topic padding">55.5k Tweets<br> </div>
-    </div>
-    <div class="line-1 "></div>
-
-    <div class="text-color-pri margin-top-main margin-left-main">
-        <div class="float-done no-line-change ">
-            <div class="font-topic padding float-left">Trending in Science </div>
-            <img class="float-right margin_right_main" src="../res/icon/3-dots.svg" height="24">
-            <br>
-        </div>
-        <div class="text-color-highlight font-topic padding"  >Starship</div>
-        <div class="font-topic padding">55.5k Tweets<br> </div>
-    </div>
-    <div class="line-1 "></div>
-
-    <div class="text-color-pri margin-top-main margin-bottom-main margin-left-main float-done no-line-change">
-        <div class="float-left">
-            <div class="font-topic padding ">Trending in Science<br> </div>
-            <div class="text-color-highlight font-topic padding"  >Starship</div>
-        </div>
-        <img class="padding margin_right_main float-right rounded-picture" src="../res/userImg1.jpeg" height="100" width= auto>
-
-    </div>
-    <div class="line-1 "></div>
-
-    <div class="text-color-pri margin-top-main margin-bottom-main margin-left-main float-done no-line-change">
-        <div class="float-left">
-            <div class="font-topic padding ">Trending in Science<br> </div>
-            <div class="text-color-highlight font-topic padding"  >Starship</div>
-        </div>
-        <img class="padding margin_right_main float-right rounded-picture" src="../res/userImg1.jpeg" height="100" width= auto>
-
-    </div>
-    <div class="line-1 "></div>
-
-    <div class="text-color-pri margin-top-main margin-bottom-main margin-left-main float-done no-line-change">
-        <div class="float-left">
-            <div class="float-done">
-                <img class="float-left padding-no-left" src="../res/icon/ver-zhihu.svg" height="15px">
-                <div class="font-topic padding-no-left-right float-left text-color-highlight">Zhihu.com </div>
-                <img class="padding-no-left-right float-left" src="../res/icon/verified.svg" height="15px">
-                <div class=" padding font-topic">  &nbsp&nbsp&#149  &nbsp yesterday</div>
+<div class="container">
+    <div class="row mt-2">
+        <div id="navigation" class="col-2 col-lg-1 col-xl-2">
+            <div  class="list-group  ">
+                <a href="" class="list-group-item list-group-item-action ">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="../home.html" class="list-group-item list-group-item-action d-flex p-2">
+                    <i class="fa fa-home mt-1"></i><div class="d-none d-xl-block"> &nbsp Home</div>
+                </a>
+                <a href="index.html" class="list-group-item list-group-item-action active d-flex p-2">
+                    <i class="fa fa-hashtag mt-1"></i><span class="d-none d-xl-block"> &nbsp Index</span>
+                </a>
+                <a href="notification.html" class="list-group-item list-group-item-action d-flex p-2">
+                    <i class="fa fa-bell mt-1"></i><span class="d-none d-xl-block"> &nbsp Notifications</span>
+                </a>
+                <a href="message.html" class="list-group-item list-group-item-action d-flex p-2">
+                    <i class="fa fa-envelope mt-1"></i><span class="d-none d-xl-block"> &nbsp Messages</span>
+                    </a>
+                <a href="../bookmarks/index.html" class="list-group-item list-group-item-action d-flex p-2">
+                    <i class="fa fa-bookmark mt-1"></i><span class="d-none d-xl-block"> &nbsp Bookmarks</span>
+                    </a>
+                <a href="list.html" class="list-group-item list-group-item-action d-flex p-2">
+                    <i class="fa fa-list mt-1"></i><span class="d-none d-xl-block"> &nbsp Lists</span>
+                    </a>
+                <a href="../profile.html" class="list-group-item list-group-item-action d-flex p-2">
+                    <i class="fa fa-user mt-1"></i><span class="d-none d-xl-block"> &nbsp Profile</span>
+                    </a>
+                <a href="more.html" class="list-group-item list-group-item-action d-flex p-2">
+                    <span class="fa-stack mt-2" style="font-size: 0.35rem">
+                        <i class="fas fa-stack-1x fa-circle test-icon-size1"></i>
+                        <i class="fas fa-stack-1x fa-ellipsis-h fa-inverse test-icon-size2 "></i>
+                    </span>
+                    <span class="d-none d-xl-block"> &nbsp More</span>
+                    </a>
             </div>
-            <div class="text-color-highlight font-topic padding"  >Starship</div>
+            <button class="btn  btn-primary  override-rounded-black d-flex w-100 justify-content-center mt-2">
+                <span class="text-center">Tweet </span>
+            </button>
         </div>
 
-        <img class="padding margin_right_main float-right rounded-picture" src="../res/img/user3.jpeg" height="100" width= auto>
 
-    </div>
-    <div class="line-1 "></div>
+        <div id="main-tuiter" class="col-10 col-lg-7 col-xl-6">
+            <div class="d-flex">
+                <div class="flex-grow-1" >
+                    <div class="input-group form-control " style="border-radius: 1.5rem">
+                        <i class="fa fa-search mt-1 me-2"></i>
+                        <input type="search" class="rounded " style = "border: 0; outline: none;" placeholder="Search Twitter"/>
 
-    <div class="text-color-pri margin-top-main margin-bottom-main margin-left-main float-done no-line-change">
-        <div class="float-left">
-            <div class="float-done">
-                <img class="float-left padding-no-left" src="../res/icon/ver-zhihu.svg" height="15px">
-                <div class="font-topic padding-no-left-right float-left text-color-highlight">Zhihu.com </div>
-                <img class="padding-no-left-right float-left" src="../res/icon/verified.svg" height="15px">
-                <div class=" padding font-topic">  &nbsp&nbsp&#149  &nbsp yesterday</div>
+                    </div>
+                </div>
+                <i class=" mt-1 ms-4 me-3 fa fa-cog fa-2x " style="color: #0d6efd" aria-hidden="true"></i>
             </div>
-            <div class="text-color-highlight font-topic padding"  >Starship</div>
+
+            <ul class="nav nav-tabs mt-2">
+                <li class="nav-item ms-0 me-0">
+                    <a class="nav-link active" href="#">For you</a>
+                </li>
+                <li class="nav-item ms-0 me-0">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item ms-0 me-0">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item ms-0 me-0">
+                    <a class="nav-link " href="#">Sports</a>
+                </li>
+                <li class="nav-item d-none d-md-block ms-0 me-0">
+                    <a class="nav-link " href="#">Entertainment</a>
+                </li>
+            </ul>
+
+            <div class="mt-2 text-center d-flex align-items-end"
+                 style="background-image:url(../res/img/spaceX-starship.webp);
+                 height: 25rem;
+                 width :auto;
+                 background-size: cover;" >
+                <h1 class="text-white ps-2 ">SpaceX's Starship</h1>
+            </div>
+            <div class="list-group">
+
+                <div class="list-group-item d-flex">
+                    <div class="flex-grow-1">
+                        <span style="color: gray">Web development</span>
+                        <div>
+                            <span><b>React JS </b></span>
+                            <i class="fa fa-check-circle"></i>
+                            <span style="color: gray"> - 2h</span>
+                        </div>
+                        <span><b>React makes it painless to create interactive UIs. Design simple views for each state in your application.</b></span><br>
+                    </div>
+                    <img class="rounded" src="../res/img/react.png" width="85px" height="85px">
+                </div>
+
+                <div class="list-group-item d-flex">
+                    <div class="flex-grow-1">
+                        <div>
+                            <span><b>JavaScript </b></span>
+                            <i class="fa fa-check-circle"></i>
+                            <span style="color: gray"> - 2h</span>
+                        </div>
+                        <span><b>JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.</b></span><br>
+                        <span style="color: gray"> 123 k Tweets</span>
+                    </div>
+                    <img  class="rounded" src="../res/img/javascript.png" width="85px" height="85px">
+                </div>
+
+                <div class="list-group-item d-flex">
+                    <div class="flex-grow-1">
+                        <span style="color: gray">Web development</span><br>
+                        <span><b>jQuery </b></span><br>
+                        <span style="color: gray"> 123 k Tweets</span>
+                    </div>
+                    <img  class="rounded" src="../res/img/jQuery.png" width="85px" height="85px">
+                </div>
+
+                <div class="list-group-item d-flex">
+                    <div class="flex-grow-1">
+                        <span style="color: gray">Web development</span>
+                        <div>
+                            <span><b>React JS </b></span>
+                            <i class="fa fa-check-circle"></i>
+                            <span style="color: gray"> - 2h</span>
+                        </div>
+                        <span style="color: gray"> 123 k Tweets</span>
+                    </div>
+                    <img class="rounded" src="../res/img/nodeJS.png" width="85px" height="85px">
+                </div>
+
+            </div>
         </div>
 
-        <img class="padding margin_right_main float-right rounded-picture" src="../res/img/user4.jpeg" height="100" width= auto>
 
+        <div id="who-to-follow" class="list-group d-none  d-lg-block col-lg-4 " style="padding-left: 12px">
+            <div class="list-group-item"> <b>Who to follow </b></div>
+
+            <div class="list-group-item  d-flex">
+                <img  class="rounded-circle me-1" src="../res/img/java.png" height="40px" width="40px" >
+                <div class="flex-grow-1">
+                    <b>Java  </b><i class="fa fa-check-circle"></i><br>
+                    <span>@Java </span>
+                </div>
+                <button class="btn btn-primary btn-md mt-1 override-rounded-black" style="height: 38px" >Follow</button>
+            </div>
+
+            <div class="list-group-item  d-flex">
+                <img  class="rounded-circle me-1" src="../res/img/relativity-space.avif" height="40px" width="40px">
+                <div class="flex-grow-1">
+                    <b>Relativity Space </b><i class="fa fa-check-circle"></i><br>
+                    <span>@relativityspace </span>
+                </div>
+                <button class="btn btn-primary btn-md mt-1 override-rounded-black" style="height: 38px" >Follow</button>
+            </div>
+
+            <div class="list-group-item  d-flex">
+                <img  class="rounded-circle me-1" src="../res/img/virgin.svg" height="40px" width="40px">
+                <div class="flex-grow-1">
+                    <b>Virgin Galactic </b><i class="fa fa-check-circle"></i><br>
+                    <span>@virgingalactic </span>
+                </div>
+                <button class="btn btn-primary btn-md mt-1 override-rounded-black" style="height: 38px" >Follow</button>
+            </div>
+
+            <div class="list-group-item  d-flex">
+                <img  class="rounded-circle me-1" src="../res/img/nasa.webp" height="40px" width="40px">
+                <div class="flex-grow-1">
+                    <b>NASA </b><i class="fa fa-check-circle"></i><br>
+                    <span>@NASA </span>
+                </div>
+                <button class="btn btn-primary btn-md mt-1 override-rounded-black" style="height: 38px" >Follow</button>
+            </div>
+
+            <div class="list-group-item  d-flex">
+                <img  class="rounded-circle me-1" src="../res/img/tesla.png" height="40px" width="40px">
+                <div class="flex-grow-1">
+                    <b>Tesla </b><i class="fa fa-check-circle"></i><br>
+                    <span>@Tesla </span>
+                </div>
+                <button class="btn btn-primary btn-md mt-1 override-rounded-black" style="height: 38px" >Follow</button>
+            </div>
+
+        </div>
     </div>
-    <div class="line-1 "></div>
-
 </div>
+
+
 
 </body>
 </html>

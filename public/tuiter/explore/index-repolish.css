@@ -1,0 +1,87 @@
+.test-icon-size1 {
+    font-size: 14px !important;
+}
+.test-icon-size2 {
+    font-size: 12px !important;
+}
+.btn-primary.override-rounded-black {
+    border-radius: 1.5em;
+    text-align: center;
+    background-color: black;
+    border-width: 0 !important;
+}
+.btn-primary.override-background-twitter-color{
+    border-radius: 1.5em;
+    text-align: center;
+    background-color: #1DA1F2;
+    border-width: 0 !important;
+}
+
+.btn-sm.override-rounded-black{
+    border-radius: 19px;
+}
+
+.list-group-item.no-border{
+    border-width: 0;
+}
+.list-group-item.background{
+    background-color: rgb(245,247,247);
+}
+.list-group.round-more{
+    border-radius: 2em;
+}
+.list-group-item-action.terms{
+    text-decoration: none !important;
+    color: grey;
+    font-size: 0.9em;
+}
+.active.inherit-color{
+    font-weight: bold;
+    background-color: unset !important;
+    color: inherit !important;
+    border-top-width: 0 !important;
+}
+.nav-link.no-border{
+    border-width: 0;
+    color: grey;
+}
+.nav-link.no-border:hover{
+    background-color: rgb(245,247,247);
+ }
+.nav-link.bottom-highlight{
+    border-width: 0 0 3px 0 !important;
+    border-color: #1DA1F2 !important;
+    color: black ;
+    padding: 8px 0 8px 0;
+    margin: 0 16px 0 16px;
+    font-weight: bold;
+
+}
+.twitter-color{
+    color: #1DA1F2;
+}
+.fa-icon {
+    background: linear-gradient(to right, gold, goldenrod);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.font-color-second{
+    color: grey;
+}
+
+.add-border{
+    border-left: solid rgb(245,247,247)!important;
+    border-right: solid rgb(245,247,247)!important;
+}
+
+.larger-list-group{
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
+.dot {
+    position: absolute;
+    top: -0.75em;
+    left: 3em;
+}

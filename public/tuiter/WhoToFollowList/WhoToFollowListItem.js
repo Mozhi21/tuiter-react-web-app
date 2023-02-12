@@ -14,6 +14,6 @@ function WhoToFollowListItem(who){
     `
 }
 
-$(`#test-list-item`).append($(WhoToFollowListItem({   avatarIcon: '../res/img/java.png',
-    userName: 'Java', handle: 'Java', })))
+// $(`#test-list-item`).append($(WhoToFollowListItem({   avatarIcon: '../res/img/java.png',
+//     userName: 'Java', handle: 'Java', })))
 export default WhoToFollowListItem;

@@ -1,14 +1,12 @@
-import PostSummaryList from "../PostSummaryList";
+import PostSummaryList from "../PostSummaryList/index.js";
 
 const ExploreComponent = () => {
     return(`
-
             <div class="d-flex">
                 <div class="flex-grow-1" >
                     <div class="input-group form-control " style="border-radius: 1.5rem">
                         <i class="fa fa-search mt-1 me-2"></i>
                         <input type="search" class="rounded " style = "border: 0; outline: none;" placeholder="Search Twitter"/>
-
                     </div>
                 </div>
                 <i class=" mt-1 ms-4 me-3 fa fa-cog fa-2x " style="color: #0d6efd" aria-hidden="true"></i>

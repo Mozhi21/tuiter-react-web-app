@@ -1,7 +1,7 @@
 
 
 function WhoToFollowListItem(who){
-    console.log(who)
+    // console.log(who)
     return`
                 <div class="list-group-item  d-flex">
                 <img  class="rounded-circle me-1" src=${who.avatarIcon} height="40px" width="40px">

@@ -1,8 +1,8 @@
 import NavigationSidebar from "../NavigationSidebar/index.js";
-import PostSummaryList from "../PostSummaryList";
+import PostSummaryList from "../PostSummaryList/";
 import HomeCenterPage from "./HomeCenterPage.js";
 
-function exploreComponent() {
+function homeComponent() {
     $('#wd-home').append(`
 <!--       <h2>Explore</h2>-->
    <div class="row mt-2">
@@ -23,4 +23,4 @@ function exploreComponent() {
    `);
 }
 
-$(exploreComponent);
+$(homeComponent);

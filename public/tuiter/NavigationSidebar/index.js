@@ -18,7 +18,7 @@ const NavigationSidebar = (active) => {
         <a href="../bookmarks/index.html" class="list-group-item list-group-item-action d-flex p-2 ${active === "bookmarks"? "active": ''}">
             <i class="fa fa-bookmark mt-1"></i><span class="d-none d-xl-block"> &nbsp Bookmarks</span>
             </a>
-        <a href="list.html" class="list-group-item list-group-item-action d-flex p-2 ${active === "lists"? "active": ''}>
+        <a href="list.html" class="list-group-item list-group-item-action d-flex p-2 ${active === "lists"? "active": ''}">
             <i class="fa fa-list mt-1"></i><span class="d-none d-xl-block"> &nbsp Lists</span>
             </a>
         <a href="../profile.html" class="list-group-item list-group-item-action d-flex p-2 ${active === "profile"? "active": ''}">

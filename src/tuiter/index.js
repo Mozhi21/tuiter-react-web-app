@@ -3,8 +3,7 @@ import ExploreComponent from "./explore";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import {Routes, Route} from "react-router";
-import PostDetailItem from "./post-detail-list/post-detail-item";
-import PostDetailList from "./post-detail-list";
+
 import HomeComponent from "./home";
 
 function Tuiter() {

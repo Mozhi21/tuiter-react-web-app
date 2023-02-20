@@ -1,5 +1,5 @@
 import React from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const PostDetailItem = (
     {
     postDetail = {
@@ -18,7 +18,7 @@ const PostDetailItem = (
 ) =>{
     return(
         <div className="list-group-item  d-flex">
-            <img className="rounded-circle"  src={postDetail.avatar} width="38px"
+            <img alt ="img"  className="rounded-circle"  src={postDetail.avatar} width="38px"
                  height="38px"/>
                 <div className="">
                     <div className="ms-2">
@@ -29,7 +29,7 @@ const PostDetailItem = (
                     </div>
 
                     <div className="rounded border m-2" style={{"borderColor":"grey"}}>
-                        <img src={postDetail.img} className="border-bottom border-secondary " width="100%"
+                        <img  alt ="img" src={postDetail.img} className="border-bottom border-secondary " width="100%"
                              height="100%"
                              style={{"borderTopLeftRadius": "inherit", "borderTopRightRadius": "inherit"}}/>
                             <p className="m-2">{postDetail.title}</p>

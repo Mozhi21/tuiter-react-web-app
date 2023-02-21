@@ -2,9 +2,14 @@
 
 ### under construction
 
-1. [x] front-end pages with plain html/css
-2. [x] front-end pages with bootstrap/font awesome/ over-witten.css
-3. [x] modulized pages with jQuery functions.
-4. [x] modulized pages with React functions/JSON files, applied dependency injection.
-5. [ ] back-end functions.
-6. [ ] database using MongoDB.
+:white_check_mark: front-end pages with plain html/css
+
+:white_check_mark: front-end pages with bootstrap/font awesome/ over-witten.css
+
+:white_check_mark: modulized pages with jQuery functions.
+
+:white_check_mark: modulized pages with React functions/JSON files, applied dependency injection.
+
+⬜ back-end functions.
+
+⬜ database using MongoDB.

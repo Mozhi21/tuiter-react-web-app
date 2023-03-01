@@ -11,12 +11,13 @@ const NavigationSidebar = (
     console.log(paths);
     if (active === ''){
         console.log("active is null")
-        active = "home";
+        active = "explore";
     }
 
     return (
         <div className="list-group">
             <a href ={"#"} className="list-group-item">Tuiter</a>
+
             <Link to="/tuiter/home" className={`list-group-item
                     ${active === 'home'?'active':''}`}>
                 Home

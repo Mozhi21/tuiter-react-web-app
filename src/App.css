@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.profile-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.profile-avarter {
+  width: 20%;
+  position: absolute;
+  top: 74%;
+  left: 5%;
+  border: 8px solid white;
+  z-index: 1;
+  border-radius: 50%;
+  opacity: 1;
+  background-color:  white;
+}
+
+.edit-profile-banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: brightness(50%);
+}
+
+.edit-profile-avarter {
+  width: 20%;
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  border: 8px solid #fff;
+  z-index: 1;
+  border-radius: 50%;
+  opacity: 1;
+  background-color:  white;
+  filter: brightness(50%);
+
+}
+

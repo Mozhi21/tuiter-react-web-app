@@ -36,7 +36,7 @@ const TuitStats = (
                 } className="bi bi-hand-thumbs-down-fill me-2" id="likes"></i>
                {post.dislikes}
             </div>
-            <div className>
+            <div>
                 <i className="fa-solid fa-share"></i>
             </div>
         </div>

@@ -13,6 +13,7 @@ const WhatsHappening = () => {
         replies:0,
         retuits:0,
             image:"user3.jpeg",
+            dislikes:0,
         }
         dispatch(createTuitThunk(newTuit))
     }
